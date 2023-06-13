@@ -1,0 +1,39 @@
+/* 
+CONVENCIÓN PARA ORDENAR LOS ESTILOS (Opcional - Recomendado)
+
+1. Posicionamiento (Relative, absolute, grid, flex..)
+2. Modelo de caja (paddings, margins)
+3. Tipografía (Fuentes)
+4. Visual (Box-shadow, bordes..)
+5. Otros
+*/
+
+:root {
+    /* Colors */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --soft-black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+    /* Fonts */
+    --primary-font: 'DM Sans', sans-serif;
+    --secondary-font: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--primary-font);
+}
