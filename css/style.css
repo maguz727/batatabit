@@ -36,4 +36,80 @@ html {
 
 body {
     font-family: var(--primary-font);
+    background-color: #faf8f7;
+}
+
+.header {
+    position: relative;
+    height: 334px;
+    background: linear-gradient(207.8deg, var(--warm-black) 16.69%, var(--bitcoin-orange) 100%);
+}
+
+.header__container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.2rem 0 3.6rem 0;
+    gap: .8rem;
+}
+
+.header__logo__img {
+    width: 4.57rem;
+    height: 2.4rem;
+}
+
+.header__logo__text {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--bitcoin-orange);
+}
+
+.header__title {
+    padding-bottom: 2.4rem;
+    text-align: center;
+    color: var(--just-white);
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+}
+
+.header__text {
+    text-align: center;
+    color: var(--soft-orange);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.header__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 12px 16px;
+    gap: 8px;
+    width: 229px;
+    height: 48px;
+    background: var(--off-white);
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 4px;
+}
+
+.header__button__text {
+    color: var(--warm-black);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.header__button__icon {
+    transform: rotate(-90deg);
 }
