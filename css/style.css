@@ -177,6 +177,10 @@ body {
     color: var(--bitcoin-orange);
 }
 
+.exchange__title-coins--commissions {
+    color: var(--secondary-blue);
+}
+
 .exchange__section-coins__coin {
     display: flex;
     grid-column: 1 / 3;
@@ -193,9 +197,9 @@ body {
 
 .exchange__section-coins__coin-price {
     font-family: var(--secondary-font);
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: #B5B0AC;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #757575;
     display: flex;
     gap: 10px;
 }
@@ -248,6 +252,10 @@ body {
     font-size: 1.2rem;
 }
 
+.exchange__section-date--blue {
+    background-color: var(--soft-blue);
+}
+
 .exchange__section-date__updated {
     font-weight: 700;
 }
@@ -266,4 +274,8 @@ body {
     margin-top: auto;
     margin-bottom: auto;
 
+}
+
+.exchange__arrow--left {
+    left: -30px;
 }
