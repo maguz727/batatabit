@@ -323,7 +323,7 @@ body {
     color: #808080;
 }
 
-/* CARDS */
+/* BENEFITS CARDS */
 
 .benefits__cards-container {
     display: flex;
@@ -362,4 +362,205 @@ body {
     font-size: 1.4rem;
     font-weight: 500;
     color: #808080;
+}
+
+/* PLANS */
+
+.plans__banner {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 64px;
+    background-color: var(--off-white);
+}
+
+.plans__banner__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.plans__banner__title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 64px;
+    left: 0;
+    right: 0;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--just-white);
+}
+
+.plans__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.plans__header__title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 14px;
+}
+
+.plans__header__description {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 50px;
+    padding: 14px;
+}
+
+/* PLANS CARDS */
+
+.plans__cards {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 64px;
+    gap: 8px;
+    padding: 0 30px;
+    height: 320px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.plans__cards::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+}
+
+.plans__cards::-webkit-scrollbar-thumb {
+        background-color: var(--bitcoin-orange);
+}
+
+
+
+.plan__card {
+    position: relative;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 190px;
+    min-height: 247px;
+    background-color: var(--just-white);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    padding: 31px 16px;
+}
+
+.plan__card__highlight {
+    position: absolute;
+    top: -20px;
+    width: 101px;
+    height: 31px;
+    background-color: var(--bitcoin-orange);
+    padding: 8px;
+    text-align: center;
+    color: var(--just-white);
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: var(--secondary-font);
+}
+
+.plan__card__title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.plan__card__price {
+    position: relative;
+    font-size: 5.2rem;
+    font-weight: 700;
+    font-family: var(--secondary-font);
+    margin-bottom: 16px;
+    letter-spacing: -4px;
+}
+
+.plan__card__price__simbol-dollar {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.plan__card__description {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    color: #757575;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.plan__card__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    gap: 8px;
+    width: 151px;
+    height: 48px;
+    background-color: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    text-decoration: none;
+}
+
+.plan__card__button__text {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--warm-black);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    min-height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer__nav__item {
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--just-white);
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer__logo__text {
+    font-size: .8rem;
+    font-weight: 300;
+    color: var(--soft-orange);
 }
