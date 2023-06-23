@@ -36,7 +36,7 @@ html {
 
 body {
     font-family: var(--primary-font);
-    background-color: #faf8f7;
+    background-color: var(--warm-black);
 }
 
 /* HEADER */
@@ -100,14 +100,15 @@ body {
     gap: 8px;
     width: 229px;
     height: 48px;
-    background: var(--off-white);
+    background: var(--soft-black);
     text-decoration: none;
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    /* box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16); */
     border-radius: 4px;
 }
 
 .header__button__text {
-    color: var(--warm-black);
+    color: var(--just-white);
     font-size: 1.4rem;
     font-weight: 700;
 }
@@ -141,21 +142,21 @@ body {
     text-align: center;
     line-height: 2.6rem;
     margin-bottom: 24px;
-    color: var(--warm-black);
+    color: var(--just-white);
 }
 
 .exchange__description {
     font-size: 1.4rem;
     font-weight: 500;
     text-align: center;
-    color: var(--soft-black);
+    color: var(--grey);
     margin-bottom: 48px;
 }
 
 .exchange__section-coins {
     margin-bottom: 16px;
     width: 100%;
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
     border-radius: 10px;
 }
 
@@ -203,14 +204,14 @@ body {
     font-family: var(--secondary-font);
     font-size: 1.6rem;
     font-weight: 500;
-    color: #757575;
+    color: var(--grey);
 }
 
 .exchange__section-coins__coin-price {
     font-family: var(--secondary-font);
     font-size: 1.4rem;
     font-weight: 400;
-    color: #757575;
+    color: var(--grey);
     display: flex;
     gap: 10px;
 }
@@ -221,9 +222,9 @@ body {
     align-items: center;
     height: 40px;
     width: 100%;
-    background-color: var(--just-white);
+    background-color: var(--soft-black);
     text-align: center;
-    border: 1px solid #faf8f7;
+    border: 1px solid var(--warm-black);
     padding: 10px
 }
 
@@ -330,7 +331,7 @@ body {
     text-align: center;
     font-size: 1.4rem;
     font-weight: 500;
-    color: var(--off-white);
+    color: var(--grey);
 }
 
 /* BENEFITS CARDS */
@@ -420,12 +421,13 @@ body {
     text-align: center;
     margin-bottom: 24px;
     padding: 14px;
+    color: var(--just-white);
 }
 
 .plans__header__description {
     font-size: 1.4rem;
     font-weight: 500;
-    color: #757575;
+    color: var(--grey);
     margin-bottom: 50px;
     padding: 14px;
 }
@@ -463,9 +465,9 @@ body {
     align-items: center;
     width: 190px;
     min-height: 247px;
-    background-color: var(--just-white);
+    background-color: var(--soft-black);
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
     padding: 31px 16px;
 }
 
@@ -488,6 +490,7 @@ body {
     font-size: 1.4rem;
     font-weight: 500;
     margin-bottom: 8px;
+    color: var(--just-white);
 }
 
 .plan__card__price {
@@ -497,6 +500,7 @@ body {
     font-family: var(--secondary-font);
     margin-bottom: 16px;
     letter-spacing: -4px;
+    color: var(--just-white);
 }
 
 .plan__card__price__simbol-dollar {
@@ -512,7 +516,7 @@ body {
     font-size: 1.2rem;
     font-weight: 500;
     font-family: var(--secondary-font);
-    color: #757575;
+    color: var(--grey);
     text-align: center;
     margin-bottom: 16px;
 }
@@ -525,7 +529,7 @@ body {
     gap: 8px;
     width: 151px;
     height: 48px;
-    background-color: var(--off-white);
+    background-color: var(--soft-black);
     border: 2px solid var(--bitcoin-orange);
     text-decoration: none;
 }
@@ -533,7 +537,7 @@ body {
 .plan__card__button__text {
     font-size: 1.4rem;
     font-weight: 700;
-    color: var(--warm-black);
+    color: var(--just-white);
 }
 
 /* FOOTER */
